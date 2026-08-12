@@ -16,7 +16,7 @@
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
   body{font-family:var(--font);color:var(--white);background:var(--ink);min-height:100vh;display:flex;
-    text-align:center;padding:44px 22px;overflow-x:hidden;position:relative;}
+    text-align:center;padding:28px 22px;overflow-x:hidden;position:relative;}
   body::before,body::after{content:"";position:fixed;border-radius:50%;filter:blur(90px);z-index:0;opacity:.55;}
   body::before{width:60vw;height:60vw;background:radial-gradient(circle,#ffc72c55,transparent 60%);top:-14vw;left:50%;transform:translateX(-50%);animation:drift1 14s ease-in-out infinite;}
   body::after{width:48vw;height:48vw;background:radial-gradient(circle,#5d8ab455,transparent 60%);bottom:-16vw;left:8%;animation:drift2 18s ease-in-out infinite;}
@@ -28,20 +28,20 @@
   .fu:nth-child(4){animation-delay:.32s}.fu:nth-child(5){animation-delay:.42s}.fu:nth-child(6){animation-delay:.5s}
   .fu:nth-child(7){animation-delay:.58s}.fu:nth-child(8){animation-delay:.66s}.fu:nth-child(9){animation-delay:.74s}
   @keyframes fadeUp{to{opacity:1;transform:none}}
-  .avatar{width:116px;height:116px;border-radius:50%;display:block;margin:0 auto 22px;box-shadow:0 0 44px -6px #ffc72c66;}
+  .avatar{width:90px;height:90px;border-radius:50%;display:block;margin:0 auto 14px;box-shadow:0 0 40px -8px #ffc72c66;}
   .badge{display:inline-flex;align-items:center;gap:9px;padding:8px 16px;border:1px solid #ffffff1f;border-radius:100px;
-    background:#ffffff0a;backdrop-filter:blur(8px);font-size:12px;letter-spacing:.22em;font-weight:600;color:#e9e9e7;margin-bottom:24px;}
+    background:#ffffff0a;backdrop-filter:blur(8px);font-size:12px;letter-spacing:.22em;font-weight:600;color:#e9e9e7;margin-bottom:14px;}
   .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);animation:pulse 2s infinite}
   @keyframes pulse{0%{box-shadow:0 0 0 0 #ffc72c88}70%{box-shadow:0 0 0 10px #ffc72c00}100%{box-shadow:0 0 0 0 #ffc72c00}}
-  .kicker{letter-spacing:.52em;font-size:12px;color:var(--dgold);font-weight:600;margin-bottom:16px}
-  h1{font-size:clamp(46px,12vw,112px);font-weight:700;line-height:.9;letter-spacing:-2px}
+  .kicker{letter-spacing:.52em;font-size:12px;color:var(--dgold);font-weight:600;margin-bottom:9px}
+  h1{font-size:clamp(40px,9.5vw,80px);font-weight:700;line-height:.9;letter-spacing:-2px}
   .grad{background:linear-gradient(100deg,var(--gold),var(--gold2),var(--gold));background-size:200% auto;
     -webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite}
   @keyframes shine{to{background-position:200% center}}
-  .rule{height:3px;width:110px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:28px auto}
-  .tag{font-size:clamp(19px,4vw,27px);font-weight:600}
-  .soon{margin-top:16px;font-size:15px;color:var(--grey)}
-  .nlabel{font-size:13px;color:#e9e9e7;margin-top:32px;font-weight:500}
+  .rule{height:3px;width:100px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:18px auto}
+  .tag{font-size:clamp(18px,3.4vw,22px);font-weight:600}
+  .soon{margin-top:10px;font-size:14px;color:var(--grey)}
+  .nlabel{font-size:13px;color:#e9e9e7;margin-top:20px;font-weight:500}
   .notify{margin-top:14px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
   .notify input{flex:1;min-width:220px;max-width:320px;padding:14px 18px;border-radius:100px;border:1px solid #ffffff26;
     background:#ffffff0a;backdrop-filter:blur(8px);color:#fff;font-family:inherit;font-size:14px;outline:none}
@@ -52,16 +52,16 @@
   .notify button:hover{transform:translateY(-3px);box-shadow:0 16px 40px -8px #ffc72cbb}
   #nmsg{font-size:12px;color:#e0a06a;margin-top:9px;min-height:14px}
   .thanks{color:var(--gold);font-weight:600;font-size:16px;padding:14px}
-  .name{margin-top:32px;font-size:17px;font-weight:600}
+  .name{margin-top:20px;font-size:16px;font-weight:600}
   .broker{font-size:13px;color:var(--grey);margin-top:6px}
   .area{font-size:12px;color:var(--dgold);margin-top:11px;letter-spacing:.16em}
-  .btns{margin-top:30px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btns{margin-top:18px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
   .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:100px;font-weight:600;font-size:14px;
     text-decoration:none;transition:transform .18s,border-color .18s,color .18s}
   .btn:hover{transform:translateY(-3px)}
   .ghost{border:1px solid #ffffff26;color:var(--white);background:#ffffff0a;backdrop-filter:blur(8px)}
   .ghost:hover{border-color:var(--gold);color:var(--gold)}
-  footer{margin-top:42px;font-size:11px;color:#75757a;line-height:1.9}
+  footer{margin-top:22px;font-size:11px;color:#75757a;line-height:1.8}
   footer a{color:#9a9a9e;text-decoration:none;border-bottom:1px solid #ffffff1a}
   footer a:hover{color:var(--gold)}
 </style>
@@ -76,7 +76,7 @@
       <div class="soon">Our new home is under construction &mdash; be the first to know.</div></div>
     <div class="fu">
       <div class="nlabel">Get notified the moment we launch</div>
-      <form class="notify" id="notify" action="https://formspree.io/f/mzepgvjq" method="POST">
+      <form class="notify" id="notify" action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID" method="POST">
         <input type="email" name="email" placeholder="Enter your email" required>
         <button type="submit">Notify Me</button>
       </form>
@@ -91,11 +91,11 @@
       <a class="btn ghost" href="tel:+14693254985">Call / Text</a>
       <a class="btn ghost" href="mailto:letina@movewithletina.com">Email</a>
       <a class="btn ghost" href="https://instagram.com/movewithletina" target="_blank" rel="noopener">Instagram</a>
-      <a class="btn ghost" href="https://facebook.com/movewithletinatx" target="_blank" rel="noopener">Facebook</a>
+      <a class="btn ghost" href="https://facebook.com/movewithletina" target="_blank" rel="noopener">Facebook</a>
     </div>
     <footer class="fu">
       Letina Walls, REALTOR® &middot; CENTURY 21 Judge Fite Company &middot; Each office is independently owned and operated.<br>
-      <a href="https://drive.google.com/file/d/1HN5gVPSe6LRi6gkQADhO-ZAE-0l-Q4ul/view?usp=drivesdk">Information About Brokerage Services</a>
+      <a href="REPLACE_WITH_IABS_LINK">Information About Brokerage Services</a>
       &nbsp;&middot;&nbsp;
       <a href="https://www.trec.texas.gov/forms/consumer-protection-notice" target="_blank" rel="noopener">Consumer Protection Notice</a>
     </footer>
