@@ -1,0 +1,9 @@
+# Short links for social posts / auto-DMs.
+# 302 (temporary) on purpose: browsers won't hard-cache these, so the
+# destination can be repointed later without stale redirects.
+
+/ellis        https://century21judgefite.com/property-search/?listings=jfc&polygon=%24cb33b1695dd4a50bf629f553d1b24274&title=Ellis%20County%2C%20TX&listingType=Residential&propertyType=Condominium%2CTownhome%2CTownhouse%2CTownhome%20Style%2CManufactured%20Home%2CMobile%20Home%2CSingle%20Family%20Residence%2CSingleFamilyResidence&sort=asc&sortField=listPrice        302
+
+/waxahachie   https://century21judgefite.com/property-search/?listings=jfc&polygon=%2426ad42ee8c04b011d02fc88e27ed1538&title=Waxahachie%2C%20TX&listingType=Residential&propertyType=Condominium%2CTownhome%2CTownhouse%2CTownhome%20Style%2CManufactured%20Home%2CMobile%20Home%2CSingle%20Family%20Residence%2CSingleFamilyResidence&sort=asc&sortField=listPrice        302
+
+/openhouses   https://century21judgefite.com/century-21-judge-fite-open-houses/        302
